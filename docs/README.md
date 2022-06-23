@@ -1,3 +1,3 @@
-# SudoRPC-TypeScript-Structure
+# SudoRPC-TypeScript-Pattern
 
-Structure of SudoRPC TypeScript
+Pattern of SudoRPC TypeScript
