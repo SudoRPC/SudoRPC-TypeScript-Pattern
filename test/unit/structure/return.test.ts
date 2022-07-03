@@ -1,23 +1,23 @@
 /**
  * @author WMXPY
  * @namespace Pattern_Structure
- * @description Call
+ * @description Return
  * @override Unit Test
  */
 
 import { Pattern, validatePatternSchema } from "@sudoo/pattern";
 import { expect } from "chai";
 import * as Chance from "chance";
-import { createSudoRPCCallPattern } from "../../../src";
+import { createSudoRPCReturnPattern } from "../../../src/structure/return";
 
-describe('Given [Call] helper functions', (): void => {
+describe('Given [Return] helper functions', (): void => {
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const chance: Chance.Chance = new Chance('pattern-geometry-coordinate');
+    const chance: Chance.Chance = new Chance('pattern-structure-return');
 
     it('should be able to create pattern object', (): void => {
 
-        const pattern: Pattern = createSudoRPCCallPattern();
+        const pattern: Pattern = createSudoRPCReturnPattern();
         const validation: boolean = validatePatternSchema(pattern);
 
         expect(validation).to.be.true;
