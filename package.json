@@ -1,0 +1,40 @@
+{
+  "name": "@sudorpc/pattern",
+  "version": "1.1.0",
+  "description": "Pattern of SudoRPC TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoRPC/SudoRPC-TypeScript-Pattern.git"
+  },
+  "keywords": [
+    "RPC"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoRPC/SudoRPC-TypeScript-Pattern/issues"
+  },
+  "homepage": "https://github.com/SudoRPC/SudoRPC-TypeScript-Pattern#readme",
+  "peerDependencies": {
+    "@sudoo/pattern": "*"
+  },
+  "devDependencies": {
+    "@sudoo/pattern": "^1.10.0",
+    "@sudoo/triforce": "^3.7.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
