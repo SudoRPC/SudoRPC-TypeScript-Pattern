@@ -7,6 +7,8 @@
 
 Pattern of SudoRPC TypeScript
 
+## Install
+
 ```sh
 yarn add @sudorpc/pattern
 yarn add @sudoo/pattern --dev # Peer Dependency
