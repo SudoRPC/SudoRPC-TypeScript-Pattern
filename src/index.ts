@@ -5,3 +5,5 @@
  */
 
 export * from "./structure/call";
+export * from "./structure/return";
+

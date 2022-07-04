@@ -8,7 +8,7 @@
 import { Pattern, validatePatternSchema } from "@sudoo/pattern";
 import { expect } from "chai";
 import * as Chance from "chance";
-import { createSudoRPCReturnPattern } from "../../../src/structure/return";
+import { createSudoRPCReturnPattern } from "../../../src";
 
 describe('Given [Return] helper functions', (): void => {
 
